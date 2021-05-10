@@ -1,7 +1,7 @@
 from roboter.models import robot
 
 
-def talk_about_restraunt():
+def talk_about_restaurant():
     restaurant_robot = robot.RestaurantRobot()
     restaurant_robot.hello()
     restaurant_robot.recommend_restaurant()
